@@ -5,10 +5,10 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:dbo="http://dbpedia.org/ontology/">
 
-    <foaf:PersonalProfileDocument rdf:about="[link ke rdf kelompok : github]">
+    <foaf:PersonalProfileDocument rdf:about="http://github.com/briannzw/Tubes_RDF_Sejarah/blob/master/Sejarah_Indonesia.rdf">
         <rdfs:label>Sejarah Indonesia</rdfs:label>
-        <foaf:maker rdf:resource="[link ke directory]"/>
-        <foaf:primaryTopic rdf:resource="[link ke directory]"/>
+        <foaf:maker rdf:resource="http://github.com/briannzw/Tubes_RDF_Sejarah/"/>
+        <foaf:primaryTopic rdf:resource="http://github.com/briannzw/Tubes_RDF_Sejarah/"/>
     </foaf:PersonalProfileDocument>
 
     <dbo:event rdf:about="http://dbpedia.org/resource/Battle_of_Surabaya">
