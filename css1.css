@@ -1,0 +1,35 @@
+.amiri{
+    font-family: 'Amiri', serif;
+    margin: auto;
+    font-size: 25px;
+}
+
+#footer{
+    padding: 3% 10%;
+    color:white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#desFooter{
+    font-size:30px;
+    margin-bottom:6%;
+}
+
+.bottom-right{
+    position: absolute;
+    top:90%;
+    right: 50px;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.cover-img{
+    object-fit: cover;
+    width: 200px;
+    height:200px;
+}
+
+.link{
+    cursor: pointer;
+}
