@@ -6,10 +6,10 @@
     xmlns:dbo="http://dbpedia.org/ontology/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
-    <foaf:PersonalProfileDocument rdf:about="http://raw.githubusercontent.com/briannzw/Tubes_RDF_Sejarah/master/Sejarah_Indonesia.rdf">
+    <foaf:PersonalProfileDocument rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/blob/master/Sejarah_Indonesia.rdf">
         <rdfs:label>Sejarah Indonesia</rdfs:label>
         <foaf:maker rdf:resource="http://raw.githubusercontent.com/briannzw/Tubes_RDF_Sejarah/master"/>
-        <foaf:primaryTopic rdf:resource="http://raw.githubusercontent.com/briannzw/Tubes_RDF_Sejarah/master"/>
+        <foaf:primaryTopic rdf:resource="https://github.com/briannzw/Tubes_RDF_Sejarah/blob/master/Sejarah_Indonesia.rdf"/>
     </foaf:PersonalProfileDocument>
 
     <dbo:event rdf:about="http://dbpedia.org/resource/Battle_of_Surabaya">
