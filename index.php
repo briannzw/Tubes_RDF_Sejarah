@@ -110,26 +110,36 @@
       \EasyRdf\RdfNamespace::set("dbr", "http://dbpedia.org/resource/");
       \EasyRdf\RdfNamespace::set("foaf", "http://xmlns.com/foaf/0.1/");
       
-      $uri_rdf = "https://raw.githack.com/briannzw/Tubes_RDF_Sejarah/master/Sejarah_Indonesia.rdf";//https://raw.githack.com/briannzw/Tubes_RDF_Sejarah/master/Test%20RDF/foaf.rdf
-      $data = \EasyRdf\Graph::newAndLoad($uri_rdf);
+      $uri_rdf = "https://raw.githubusercontent.com/briannzw/Tubes_RDF_Sejarah/master/Sejarah_Indonesia.rdf";//https://raw.githack.com/briannzw/Tubes_RDF_Sejarah/master/Test%20RDF/foaf.rdf
+      $raw_file = file_get_contents($uri_rdf);
+      $parser = new \EasyRdf\Parser\RdfXml();
+      $graph = new \EasyRdf\Graph();
+      $parser->parse($graph, $raw_file, 'rdfxml', null);
 
-      $doc = $data->resource("https://github.com/briannzw/Tubes_RDF_Sejarah/");//http://github.com/briannzw/Tubes_RDF_Sejarah/blob/master/Sejarah_Indonesia.rdf
-      //var_dump($data->dump());
-      //$doc = $data->primaryTopic();
+      $doc = $graph->resource("https://github.com/briannzw/Tubes_RDF_Sejarah/");//http://github.com/briannzw/Tubes_RDF_Sejarah/blob/master/Sejarah_Indonesia.rdf
+      //var_dump($graph->dump());
+      //$doc = $graph->primaryTopic();
       //var_dump($doc);
-      //var_dump($data->toRdfPhp());
+      //var_dump($graph->toRdfPhp());
       //echo "test\n".$doc->get("rdfs:label");
     ?>
 
     <!-- Card Container-->
+    <?php 
+      \EasyRdf\RdfNamespace::setDefault('og');
+    ?>
     <div class="container-fluid px-5 pb-5" id="containerbg">
         <h1 class="text-light mb-0 mt-0 py-5">Sejarah Indonesia</h1>
         <?php foreach($doc->all('dbo:event') as $event) : ?>
           <!--Card -->
+          <?php 
+            $wiki_uri = 'https://en.wikipedia.org/wiki/' . str_replace(\EasyRdf\RdfNamespace::get('dbr'), '' ,$event->get('foaf:page'));
+            $img_file = \EasyRdf\Graph::newAndLoad($wiki_uri);
+          ?>
           <div class="card my-2">
             <div class="row cardfont">
               <div class="col-md-4">
-                <img src="index_img/profile.png" class="card-img" alt="...">
+                <img src="<?= $img_file->image ?>" class="card-img" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
