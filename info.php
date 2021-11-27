@@ -1,6 +1,5 @@
 <?php 
     require 'vendor/autoload.php';
-    require "html_tag_helpers.php";
 
     $uri="";
     if($_SERVER['REQUEST_METHOD'] == "POST"){
