@@ -139,14 +139,14 @@
           <div class="card my-2">
             <div class="row cardfont">
               <div class="col-md-4">
-                <img src="<?= $img_file->image ?>" class="card-img" alt="...">
+                <img src="<?= $img_file->image ?>" class="card-img" alt="" onerror="this.onerror=null; this.src='index_img/alt_image.jpg'">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h2><?= $event->get('rdfs:label') ?></h2>
                   <p class="mb-0"><?= $event->get('dbo:date') ?></p>
                   <p class="mb-0"><?= $event->get('dbo:place') ?></p>
-                  <p class="bottom-right">Info Selengkapnya</p>
+                  <a class="bottom-right" href="">Info Selengkapnya</a>
                 </div>
               </div>
             </div>
