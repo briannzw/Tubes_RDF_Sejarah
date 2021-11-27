@@ -1,0 +1,83 @@
+#brand{
+    margin:20px 35%;
+    font-family: 'Fira Sans', sans-serif;
+}
+#logo{
+    width:100px;
+    margin-right:20px;
+}
+#Container1{
+    margin-top: 10px;
+    padding:20px 30px;
+    border-radius: 30px;  
+}
+#kembali{
+    float:right;
+    padding:5px 20px;
+    border-radius:10px;
+    border:2px solid green;
+    background-color: transparent;
+}
+#inpname{
+    padding: 10px 20px;
+    
+}
+#inpBangunan{
+    padding:15px 20px;
+    width: 75%;
+}
+#inpTipe{
+    padding: 10px 20px;
+}
+#inpLokasi{
+    width:75%;
+    padding:10px 20px;
+}
+#inpLuas, #inpHarga{
+    padding:10px 15px;
+}
+
+#inpBangunan, #inpTipe, #inpLokasi, #inpLuas, #inpHarga{
+    margin-bottom: 10px;
+}
+
+#inpKet{
+    width:75%;
+    padding: 10px 20px;
+}
+
+#inpname, #inpBangunan, #inpTipe, #inpLokasi, #inpLuas, #inpHarga, #inpKet{
+    border-radius:10px;
+    border:1px solid grey;
+    
+}
+.pemisah{
+    border-left: 1px solid gray;
+    height: 10;
+    width: 0px;
+    float: right;
+}
+#unggah{
+    padding:5px 15px;
+    display:inline;
+}
+#post{
+    padding:5px 50px;
+    border-radius: 30px;
+    background-color:transparent
+}
+
+#footer{
+    background-color:black;
+    padding: 3% 10%;
+    color:white;
+    text-align: center;
+}
+#desFooter{
+    font-size:25px;
+    margin-bottom:3%;
+}
+.linkFooter:hover, .linkFooter:link, .linkFooter:visited{
+    color: white;
+    text-decoration: none;
+}

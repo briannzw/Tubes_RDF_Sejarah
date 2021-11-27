@@ -1,0 +1,173 @@
+button{
+    color: #707070;
+    padding: 9px 20px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #707070;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background-color: #707070;
+    color: white;
+}
+body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#333;
+    background-color:#fff
+}
+.team-page .cont .row1 {
+  margin-bottom:100px;
+}
+.team-page .cont .row1 h1 {
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-left:-30px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.team-page .cont .row1 h2 {
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 2em;
+  margin-bottom: -50px;
+  margin-left:-30px;
+  margin-top: 50px;
+}
+
+.team-page .cont .row1 h4 {
+  font-family: 'roboto';
+  font-size: 25px;
+  text-align: center;
+  margin-right:80px;
+  margin-left: -10px;
+  margin-top: 40px;
+}
+
+.team-page .cont .row1 h5 {
+  font-size: 15px;
+  font-family: 'roboto';
+  text-align: center;
+  margin-top: -5px;
+  margin-right:80px;
+  margin-left: -10px;
+}
+
+.team-page .cont .row1 p {
+  line-height: 1.8em;
+  font-family: 'roboto', sans-serif;
+  text-align: justify;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-left: -50px;
+  margin-right: 50px;
+}
+
+
+.team-page .cont .row1 ul {
+  margin-left: 20px;
+  margin-top: 30px;
+  
+}
+
+.cont{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+@media (min-width:768px){
+    .cont{
+        width:750px
+    }
+}
+@media (min-width:992px){
+    .cont{
+        width:970px
+    }
+}
+@media (min-width:1200px){
+    .cont{
+        width:1170px
+    }
+}
+.cont-fluid{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+.row1{
+    margin-right:-15px;
+    margin-left:-15px
+}
+.img-circle{
+    border-radius:50%
+}
+.team-pictures .cont .row1  {
+  text-align: center;
+  text-spacing: 10px;
+  margin-right: 45px;
+  margin-left: -45px;
+  margin-top: -70px;
+
+}
+
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{
+    position:center;
+    min-height:1px;
+    padding-right:10px;
+    padding-left:10px
+}
+
+@media (min-width:992px){
+    .col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{
+        float:left
+    }
+
+.col-md-3{
+        width:20%
+    }
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    font-family:inherit;
+    font-weight:500;
+    line-height:1.1;
+    color:inherit
+	}
+
+.h4,.h5,.h6,h4,h5,h6{
+    margin-top:10px;
+    margin-bottom:10px
+}
+
+.h4,h4{
+    font-size:18px
+}
+.listunstyled{
+    padding-left:0;
+    list-style:none
+}
+.listinline{
+    padding-left:0;
+    margin-left:-5px;
+    list-style:none
+}
+.listinline>li{
+    display:inline-block;
+    padding-right:5px;
+    padding-left:5px
+}
+
+.box{
+        width: 300px;
+        margin: 10px
+        }
