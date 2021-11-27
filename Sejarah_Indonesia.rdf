@@ -106,10 +106,11 @@
 
         <dbo:event>
             <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Dutch_intervention_in_Bali_(1908)">
-            <rdfs:label>Intervensi Belanda di Bali (1908)</rdfs:label>
-            <dbo:place>Bali</dbo:place>
-            <dbo:date>April 1908</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Dutch_intervention_in_Bali_(1908)"/>
+                <rdfs:label>Intervensi Belanda di Bali (1908)</rdfs:label>
+                <dbo:place>Bali</dbo:place>
+                <dbo:date>April 1908</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Dutch_intervention_in_Bali_(1908)"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
         <dbo:event>
