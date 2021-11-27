@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <foaf:PersonalProfileDocument rdf:about="http://webtuts.loc/websemantik/satriani_prj.rdf">
+    <rdfs:label>Joe Satriani Bibliography</rdfs:label>
+    <foaf:maker rdf:resource="http://webtuts.loc/websemantik/"/>
+    <foaf:primaryTopic rdf:resource="http://webtuts.loc/websemantik/"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Person rdf:about="http://webtuts.loc/websemantik/">
+    <foaf:name>Joe Satriani</foaf:name>
+    <foaf:title>Mr</foaf:title>
+    <foaf:givenName>Joseph</foaf:givenName>
+    <foaf:familyName>Satriani</foaf:familyName>
+    <owl:sameAs>
+      <foaf:Person rdf:about="http://dbpedia.org/resource/Joe_Satriani">
+        <rdfs:label>Joe Satriani</rdfs:label>
+        <foaf:homepage rdf:resource="http://dbpedia.org/resource/Joe_Satriani"/>
+      </foaf:Person>
+    </owl:sameAs>
+
+    <foaf:pastProject>
+      <foaf:Project rdf:about="http://dbpedia.org/resource/Jason_Becker:_Not_Dead_Yet">
+        <foaf:homepage rdf:resource="http://www.imdb.com/title/tt2120779"/>
+        <foaf:name>Jason Becker Not Dead Yet</foaf:name>
+      </foaf:Project>
+    </foaf:pastProject>
+
+  </foaf:Person>
+</rdf:RDF>
