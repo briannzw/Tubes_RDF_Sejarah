@@ -14,200 +14,255 @@
 
     <foaf:Document rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/">
         <rdfs:label>Tugas Semantic Web tentang Sejarah Indonesia</rdfs:label>
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Surabaya">
-            <rdfs:label>Pertempuran Surabaya</rdfs:label>
-            <dbo:place>Surabaya</dbo:place>
-            <dbo:date>1945-11-20^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Surabaya"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Surabaya">
+                <rdfs:label>Pertempuran Surabaya</rdfs:label>
+                <dbo:place>Surabaya</dbo:place>
+                <dbo:date>1945-11-20^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Surabaya"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Darul_Islam_rebellion">
-            <rdfs:label>Pemberontakan Darul Islam</rdfs:label>
-            <dbo:place>Aceh</dbo:place>
-            <dbo:date>1949-08-07^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Darul_Islam_rebellion"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Darul_Islam_rebellion">
+                <rdfs:label>Pemberontakan Darul Islam</rdfs:label>
+                <dbo:place>Aceh</dbo:place>
+                <dbo:date>1949-08-07^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Darul_Islam_rebellion"/>
+            </dbo:SocietalEvent>
         </dbo:event>
         
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Siege_of_Surakarta">
-            <rdfs:label>Serangan Umum Surakarta</rdfs:label>
-            <dbo:place>Surakarta</dbo:place>
-            <dbo:date>1949-08-07^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Siege_of_Surakarta"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Siege_of_Surakarta">
+                <rdfs:label>Serangan Umum Surakarta</rdfs:label>
+                <dbo:place>Surakarta</dbo:place>
+                <dbo:date>1949-08-07^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Siege_of_Surakarta"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#1990–1998_Indonesian_military_operations_in_Aceh">
-            <rdfs:label>Operasi militer Indonesia di Aceh 1990-1998</rdfs:label>
-            <dbo:place>Aceh</dbo:place>
-            <dbo:date>Awal 1990</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/1990–1998_Indonesian_military_operations_in_Aceh"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#1990–1998_Indonesian_military_operations_in_Aceh">
+                <rdfs:label>Operasi militer Indonesia di Aceh 1990-1998</rdfs:label>
+                <dbo:place>Aceh</dbo:place>
+                <dbo:date>Awal 1990</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/1990–1998_Indonesian_military_operations_in_Aceh"/>
+            </dbo:SocietalEvent>
         </dbo:event>
         
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#APRA_coup_d'état">
-            <rdfs:label>Kudeta APRA</rdfs:label>
-            <dbo:place>Bandung</dbo:place>
-            <dbo:date>1950-01-23^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/APRA_coup_d'état"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#APRA_coup_d'état">
+                <rdfs:label>Kudeta APRA</rdfs:label>
+                <dbo:place>Bandung</dbo:place>
+                <dbo:date>1950-01-23^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/APRA_coup_d'état"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Aceh_War">
-            <rdfs:label>Perang Aceh</rdfs:label>
-            <dbo:place>Aceh</dbo:place>
-            <dbo:date>1873^^xsd:integer</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Aceh_War"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Aceh_War">
+                <rdfs:label>Perang Aceh</rdfs:label>
+                <dbo:place>Aceh</dbo:place>
+                <dbo:date>1873^^xsd:integer</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Aceh_War"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#2003–2004_Indonesian_offensive_in_Aceh">
-            <rdfs:label>Operasi militer Indonesia di Aceh 2003-2004</rdfs:label>
-            <dbo:place>Aceh</dbo:place>
-            <dbo:date>1950-01-23^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/2003–2004_Indonesian_offensive_in_Aceh"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#2003–2004_Indonesian_offensive_in_Aceh">
+                <rdfs:label>Operasi militer Indonesia di Aceh 2003-2004</rdfs:label>
+                <dbo:place>Aceh</dbo:place>
+                <dbo:date>1950-01-23^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/2003–2004_Indonesian_offensive_in_Aceh"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Mapenduma_hostage_crisis">
-            <rdfs:label>Krisis sandera Mapenduma</rdfs:label>
-            <dbo:place>Kabupaten Jayawijaya</dbo:place>
-            <dbo:date>1996-05-15^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Mapenduma_hostage_crisis"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Mapenduma_hostage_crisis">
+                <rdfs:label>Krisis sandera Mapenduma</rdfs:label>
+                <dbo:place>Kabupaten Jayawijaya</dbo:place>
+                <dbo:date>1996-05-15^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Mapenduma_hostage_crisis"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Dutch_intervention_in_Bali_(1849)">
-            <rdfs:label>Intervensi Belanda di Bali (1849)</rdfs:label>
-            <dbo:place>Bali</dbo:place>
-            <dbo:date>1849^^xsd:integer</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Dutch_intervention_in_Bali_(1849)"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Dutch_intervention_in_Bali_(1849)">
+                <rdfs:label>Intervensi Belanda di Bali (1849)</rdfs:label>
+                <dbo:place>Bali</dbo:place>
+                <dbo:date>1849^^xsd:integer</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Dutch_intervention_in_Bali_(1849)"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Dutch_intervention_in_Bali_(1906)">
-            <rdfs:label>Intervensi Belanda di Bali (1906)</rdfs:label>
-            <dbo:place>Bali</dbo:place>
-            <dbo:date>September–Oktober 1906</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Dutch_intervention_in_Bali_(1906)"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Dutch_intervention_in_Bali_(1906)">
+                <rdfs:label>Intervensi Belanda di Bali (1906)</rdfs:label>
+                <dbo:place>Bali</dbo:place>
+                <dbo:date>September–Oktober 1906</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Dutch_intervention_in_Bali_(1906)"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Dutch_intervention_in_Bali_(1908)">
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Dutch_intervention_in_Bali_(1908)">
             <rdfs:label>Intervensi Belanda di Bali (1908)</rdfs:label>
             <dbo:place>Bali</dbo:place>
             <dbo:date>April 1908</dbo:date>
             <foaf:page rdf:resource="http://dbpedia.org/resource/Dutch_intervention_in_Bali_(1908)"/>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Ambarawa">
-            <rdfs:label>Palagan Ambarawa</rdfs:label>
-            <dbo:place>Ambarawa</dbo:place>
-            <dbo:date>1945-12-15^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Ambarawa"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Ambarawa">
+                <rdfs:label>Palagan Ambarawa</rdfs:label>
+                <dbo:place>Ambarawa</dbo:place>
+                <dbo:date>1945-12-15^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Ambarawa"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Bantam">
-            <rdfs:label>Pertempuran Banten</rdfs:label>
-            <dbo:place>Teluk Banten</dbo:place>
-            <dbo:date>1601-12-27^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Bantam"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Bantam">
+                <rdfs:label>Pertempuran Banten</rdfs:label>
+                <dbo:place>Teluk Banten</dbo:place>
+                <dbo:date>1601-12-27^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Bantam"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Biak">
-            <rdfs:label>Pertempuran Biak</rdfs:label>
-            <dbo:place>Biak</dbo:place>
-            <dbo:date>1944-08-17^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Biak"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Biak">
+                <rdfs:label>Pertempuran Biak</rdfs:label>
+                <dbo:place>Biak</dbo:place>
+                <dbo:date>1944-08-17^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Biak"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Margarana">
-            <rdfs:label>Puputan Margarana</rdfs:label>
-            <dbo:place>Marga</dbo:place>
-            <dbo:date>1946-11-20^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Margarana"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Margarana">
+                <rdfs:label>Puputan Margarana</rdfs:label>
+                <dbo:place>Marga</dbo:place>
+                <dbo:date>1946-11-20^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Margarana"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Medan">
-            <rdfs:label>Pertempuran Medan Area</rdfs:label>
-            <dbo:place>Medan</dbo:place>
-            <dbo:date>1945-10-13^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Medan"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Medan">
+                <rdfs:label>Pertempuran Medan Area</rdfs:label>
+                <dbo:place>Medan</dbo:place>
+                <dbo:date>1945-10-13^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Medan"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Semarang">
-            <rdfs:label>Pertempuran Lima Hari</rdfs:label>
-            <dbo:place>Semarang</dbo:place>
-            <dbo:date>1945-10-19^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Semarang"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Battle_of_Semarang">
+                <rdfs:label>Pertempuran Lima Hari</rdfs:label>
+                <dbo:place>Semarang</dbo:place>
+                <dbo:date>1945-10-19^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Battle_of_Semarang"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#General_Offensive_of_1_March_1949">
-            <rdfs:label>Serangan Umum 1 Maret 1949</rdfs:label>
-            <dbo:place>Yogyakarta</dbo:place>
-            <dbo:date>1949-03-01^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/General_Offensive_of_1_March_1949"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#General_Offensive_of_1_March_1949">
+                <rdfs:label>Serangan Umum 1 Maret 1949</rdfs:label>
+                <dbo:place>Yogyakarta</dbo:place>
+                <dbo:date>1949-03-01^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/General_Offensive_of_1_March_1949"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#30_September_Movement">
-            <rdfs:label>Gerakan 30 September</rdfs:label>
-            <dbo:place>Jakarta</dbo:place>
-            <dbo:date>1965-10-01^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/30_September_Movement"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#30_September_Movement">
+                <rdfs:label>Gerakan 30 September</rdfs:label>
+                <dbo:place>Jakarta</dbo:place>
+                <dbo:date>1965-10-01^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/30_September_Movement"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Insurgency_in_Aceh">
-            <rdfs:label>Pemberontakan di Aceh</rdfs:label>
-            <dbo:place>Aceh</dbo:place>
-            <dbo:date>1976-12-04^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Insurgency_in_Aceh"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Insurgency_in_Aceh">
+                <rdfs:label>Pemberontakan di Aceh</rdfs:label>
+                <dbo:place>Aceh</dbo:place>
+                <dbo:date>1976-12-04^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Insurgency_in_Aceh"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Kalimantan_Physical_Revolution">
-            <rdfs:label>Revolusi Fisik Kalimantan</rdfs:label>
-            <dbo:place>Kalimantan</dbo:place>
-            <dbo:date>1945^^xsd:integer</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Kalimantan_Physical_Revolution"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Kalimantan_Physical_Revolution">
+                <rdfs:label>Revolusi Fisik Kalimantan</rdfs:label>
+                <dbo:place>Kalimantan</dbo:place>
+                <dbo:date>1945^^xsd:integer</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Kalimantan_Physical_Revolution"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Alpha_29">
-            <rdfs:label>Operasi Alfa 29</rdfs:label>
-            <dbo:place>Kabupaten Poso</dbo:place>
-            <dbo:date>2016-07-18^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Alpha_29"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Alpha_29">
+                <rdfs:label>Operasi Alfa 29</rdfs:label>
+                <dbo:place>Kabupaten Poso</dbo:place>
+                <dbo:date>2016-07-18^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Alpha_29"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Kraai">
-            <rdfs:label>Agresi Militer Belanda II</rdfs:label>
-            <dbo:place>Indonesia</dbo:place>
-            <dbo:date>1948-12-19^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Kraai"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Kraai">
+                <rdfs:label>Agresi Militer Belanda II</rdfs:label>
+                <dbo:place>Indonesia</dbo:place>
+                <dbo:date>1948-12-19^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Kraai"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Madago_Raya">
-            <rdfs:label>Operasi Madago Raya</rdfs:label>
-            <dbo:place>Kabupaten Parigi Moutong</dbo:place>
-            <dbo:date>2016-01-10^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Madago_Raya"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Madago_Raya">
+                <rdfs:label>Operasi Madago Raya</rdfs:label>
+                <dbo:place>Kabupaten Parigi Moutong</dbo:place>
+                <dbo:date>2016-01-10^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Madago_Raya"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Product">
-            <rdfs:label>Agresi Militer Belanda I</rdfs:label>
-            <dbo:place>Jawa</dbo:place>
-            <dbo:date>1947-07-21^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Product"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Operation_Product">
+                <rdfs:label>Agresi Militer Belanda I</rdfs:label>
+                <dbo:place>Jawa</dbo:place>
+                <dbo:date>1947-07-21^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Operation_Product"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Third_Javanese_War_of_Succession">
-            <rdfs:label>Perang Tahta Jawa Ketiga</rdfs:label>
-            <dbo:place>Kesultanan Mataram</dbo:place>
-            <dbo:date>1749-12-15^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Third_Javanese_War_of_Succession"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Third_Javanese_War_of_Succession">
+                <rdfs:label>Perang Tahta Jawa Ketiga</rdfs:label>
+                <dbo:place>Kesultanan Mataram</dbo:place>
+                <dbo:date>1749-12-15^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Third_Javanese_War_of_Succession"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Fall_of_Plered">
-            <rdfs:label>Kejatuhan Plered</rdfs:label>
-            <dbo:place>Plered</dbo:place>
-            <dbo:date>Akhir Juni 1677</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Fall_of_Plered"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Fall_of_Plered">
+                <rdfs:label>Kejatuhan Plered</rdfs:label>
+                <dbo:place>Plered</dbo:place>
+                <dbo:date>Akhir Juni 1677</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Fall_of_Plered"/>
+            </dbo:SocietalEvent>
         </dbo:event>
 
-        <dbo:event rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Sunda_Straits_Crisis">
-            <rdfs:label>Krisis Selat Sunda</rdfs:label>
-            <dbo:place>Selat Sunda</dbo:place>
-            <dbo:date>1964-09-10^^xsd:date</dbo:date>
-            <foaf:page rdf:resource="http://dbpedia.org/resource/Sunda_Straits_Crisis"/>
+        <dbo:event>
+            <dbo:SocietalEvent rdf:about="https://github.com/briannzw/Tubes_RDF_Sejarah/#Sunda_Straits_Crisis">
+                <rdfs:label>Krisis Selat Sunda</rdfs:label>
+                <dbo:place>Selat Sunda</dbo:place>
+                <dbo:date>1964-09-10^^xsd:date</dbo:date>
+                <foaf:page rdf:resource="http://dbpedia.org/resource/Sunda_Straits_Crisis"/>
+            </dbo:SocietalEvent>
         </dbo:event>
     </foaf:Document>
 
