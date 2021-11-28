@@ -5,7 +5,6 @@
     if($_SERVER['REQUEST_METHOD'] == "POST"){
         if($_POST['URI']){
             $uri = $_POST['URI'];
-        //    echo "<script>alert('".$uri."');</script>";
         }
     }
     else{
@@ -36,9 +35,9 @@
         OPTIONAL{<".\EasyRdf\RdfNamespace::get("dbr").$uri."> dbo:date ?date.}
         OPTIONAL{<".\EasyRdf\RdfNamespace::get("dbr").$uri."> dbp:casualties ?casuality.}
         OPTIONAL{<".\EasyRdf\RdfNamespace::get("dbr").$uri."> dbo:result ?result.}
-        ?tmp_place   rdfs:label ?place;
-                     geo:lat ?lat;
-                     geo:long ?long.
+        ?tmp_place   rdfs:label ?place.
+        OPTIONAL{ ?tmp_place geo:lat ?lat.}
+        OPTIONAL{ ?tmp_place geo:long ?long.}
         FILTER NOT EXISTS {?tmp_place dbo:currencyCode 'IDR'}
         FILTER(LANG(?label) = 'in' || LANG(?label) = 'en' || LANG(?label) = '').
         FILTER(LANG(?abstract) = 'in' || LANG(?abstract) = 'en' || LANG(?abstract) = '')
