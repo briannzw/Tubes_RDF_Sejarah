@@ -46,7 +46,7 @@
                     font-size: 23px;
                 }
                 .bg-light{
-                    background: transparent !important;
+                    background-color: rgba(255,255,255,0.8)!important;
                     transition:0.5s ease;
                 }
                 .bg-light.scroll{
@@ -63,6 +63,18 @@
                 a:active, a:link, a:visited, a:hover{
                     color: white;
                     text-decoration: none;
+                    
+                }
+                body{
+                    background-image: url('index_img/search.jpg');
+                    background-position: center;
+                    
+                }
+
+                .newtable{
+                    padding: 10px 8px;
+                    height: 280px;
+                    overflow-y: auto;
                     
                 }
             </style>
@@ -100,7 +112,7 @@
             PREFIX dbo:  <http://dbpedia.org/ontology/>
             PREFIX cat:  <http://dbpedia.org/property/>
             PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-            PREFIX dc: 	 <http://purl.org/dc/elements/1.1/>
+            PREFIX dc:   <http://purl.org/dc/elements/1.1/>
             PREFIX dbp: <http://dbpedia.org/property/>
             SELECT DISTINCT *
             WHERE
@@ -109,8 +121,8 @@
                        rdfs:label   ?Judul;
                        dbo:runtime  ?Durasi;
                        dbp:starring ?Pemeran;
-                       dbo:genre	?Genre;
-                       dbo:rating	?Rating.
+                       dbo:genre ?Genre;
+                       dbo:rating ?Rating.
             }
             LIMIT 10";
             $result = sparql_query($sparql);
@@ -122,9 +134,11 @@
         ?>
 
         <!--Container Gambar-->
-        <div class="container-fluid d-flex justify-content-center align-items-center bg-search m-0 p-0 h-100">
-            <div class="justify-content-center h-100">
-            <table class="table table-light table-bordered">
+        <br>
+        <br>
+        <br>
+        <div class="container table-container my-3 p-0">
+            <table class="table table-light table-bordered m-0 p-0">
                 <thead class="thead-dark">
                     <tr>
                     <th scope="col">No</th>
@@ -165,7 +179,6 @@
                 </tbody>
             </table>
             </div>
-        </div>
         <!--Akhir Container Gambar-->
         <!--Footer-->
         <footer class="page-footer bg-dark">
@@ -175,7 +188,7 @@
 
         <script>
         $(window).scroll(function(){
-            $('nav').toggleClass('scroll', $(this).scrollTop() > 200);
+            $('nav').toggleClass('scroll', $(this).scrollTop() > 0);
         });
         </script>
     </body>
