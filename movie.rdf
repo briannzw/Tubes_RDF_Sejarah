@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dbo="http://dbpedia.org/ontology/"
+         xmlns:dbp="http://dbpedia.org/property/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Squid_Game">
+            <rdfs:label>Squid Game</rdfs:label>
+            <rdfs:comment>The series revolves around a contest where 456 players, all of whom are in deep financial debt, risk their lives to play a series of deadly children's games for the chance to win a ₩45.6 billion prize.</rdfs:comment>
+            <dbo:director>Hwang Dong-hyuk</dbo:director>
+            <dbp:starring>Lee Jung-jae, Park Hae-soo, Wi Ha-joon</dbp:starring>
+            <dbo:releaseDate>September 17, 2021</dbo:releaseDate>
+            <dbo:runtime>32-63 mins</dbo:runtime>
+            <dc:language>Korean</dc:language>
+            <dbo:genre>Survival, Thriller, Horror, Drama</dbo:genre>
+            <dbo:rating>9.6</dbo:rating>
+            <foaf:age>15+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/Squid_Game"/>
+            <foaf:img rdf:resource="https://www.popbela.com/career/inspiration/ajenk-rama/libatkan-ratusan-orang-intip-foto-lokasi-syuting-kdrama-squid-game" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/oqxAJKy0ii4" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Shang-Chi_and_the_Legend_of_the_Ten_Rings">
+            <rdfs:label>Shang-Chi and the Legend of the Ten Rings</rdfs:label>
+            <rdfs:comment>Shang-Chi and the Legend of the Ten Rings is a 2021 American superhero film based on Marvel Comics featuring the character Shang-Chi. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 25th film in the Marvel Cinematic Universe (MCU).</rdfs:comment>
+            <dbo:director>Destin Daniel Cretton</dbo:director>
+            <dbp:starring>Simu Liu, Awkwafina, Meng'er Zhang</dbp:starring>
+            <dbo:releaseDate>August 16, 2021</dbo:releaseDate>
+            <dbo:runtime>132 mins</dbo:runtime>
+            <dc:language>English</dc:language>
+            <dbo:genre>Action, Superhero, Fantasy, Adventure, Science fiction</dbo:genre>
+            <dbo:rating>9.5</dbo:rating>
+            <foaf:age>16+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings"/>
+            <foaf:img rdf:resource="https://traxonsky.com/baru-tayang-4-hari-shang-chi-and-the-legend-of-the-ten-rings-udah-ngehasilin-rp-12-triliun/" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/8YjFbMbfXaQ" />
+        </rdf:Description>
+
+    <!-- Popular Movie -->
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Oxygen">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>
+            <rdfs:label>Oxygen</rdfs:label>
+            <rdfs:comment>Oxygen (French: Oxygène) is a 2021 French-language science fiction thriller film, directed and produced by Alexandre Aja, from a screenplay by Christie LeBlanc.</rdfs:comment>
+            <dbo:director>Alexandre Aja</dbo:director>
+            <dbp:starring>Mélanie Laurent, Mathieu Amalric, Malik Zidi</dbp:starring>
+            <dbo:releaseDate>May 12, 2021</dbo:releaseDate>
+            <dbo:runtime>101 mins</dbo:runtime>
+            <dc:language>French</dc:language>
+            <dbo:genre>Thriller, Science fiction, Drama</dbo:genre>
+            <dbo:rating>9.2</dbo:rating>
+            <foaf:age>18+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/Oxygen_(2021_film)"/>
+            <foaf:img rdf:resource="https://cinemags.co.id/oxygen-sinopsis-dan-ulasan-film/" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/8IqXgZd-P98" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Nightbooks">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>
+            <rdfs:label>Nightbooks</rdfs:label>
+            <rdfs:comment>Nightbooks is a 2021 American dark fantasy film directed by David Yarovesky and written by Mikki Daughtry and Tobias Iaconis. The film stars Winslow Fegley, Lidya Jewett, and Krysten Ritter. </rdfs:comment>
+            <dbo:director>David Yarovesky</dbo:director>
+            <dbp:starring>Winslow Fegley, Lidya Jewett, Krysten Ritter</dbp:starring>
+            <dbo:releaseDate>September 15, 2021</dbo:releaseDate>
+            <dbo:runtime>103 mins</dbo:runtime>
+            <dc:language>English</dc:language>
+            <dbo:genre>Horor, Fantasi</dbo:genre>
+            <dbo:rating>9.0</dbo:rating>
+            <foaf:age>16+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/Nightbooks"/>
+            <foaf:img rdf:resource="https://otakukart.com/netflixs-nightbooks-release-date/" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/aQO16k5Vdow" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Cinderella">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>    
+            <rdfs:label>Cinderella</rdfs:label>
+            <rdfs:comment>Cinderella is a 2021 American romantic musical film based on the fairy tale of the same name by Charles Perrault. It is a jukebox musical, featuring pop and rock hits, in addition to several original songs.</rdfs:comment>
+            <dbo:director>Hwang Dong-hyuk</dbo:director>
+            <dbp:starring>Kay Cannon</dbp:starring>
+            <dbo:releaseDate>August 30, 2021</dbo:releaseDate>
+            <dbo:runtime>1113 mins</dbo:runtime>
+            <dc:language>English</dc:language>
+            <dbo:genre>Romantic comedy, Musical, Fantasy</dbo:genre>
+            <dbo:rating>9.6</dbo:rating>
+            <foaf:age>16+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/Cinderella_(2021_American_film)"/>
+            <foaf:img rdf:resource="https://www.hariansederhana.com/sinopsis-film/pr-1011168333/cinderella-2021-debut-camila-cabello-dalam-dunia-akting" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/T1NeHRuPpoM" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/The_8th_Night">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>    
+            <rdfs:label>The 8th Night</rdfs:label>
+            <rdfs:comment>The 8th Night (Korean: 제8일의 밤; RR: Je8ileui Bam) is a 2021 South Korean mystery-thriller film directed by Kim Tae-hyoung for Gom Pictures.</rdfs:comment>
+            <dbo:director>Kim Tae-hyoung</dbo:director>
+            <dbp:starring>Lee Sung-min, Park Hae-joon, Kim Yoo-jung</dbp:starring>
+            <dbo:releaseDate>July 2, 2021</dbo:releaseDate>
+            <dbo:runtime>115 mins</dbo:runtime>
+            <dc:language>Korean</dc:language>
+            <dbo:genre>Horor Thriller</dbo:genre>
+            <dbo:rating>9.2</dbo:rating>
+            <foaf:age>17+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/The_8th_Night"/>
+            <foaf:img rdf:resource="https://m.dreamers.id/film/article/98467/review-film-the-8th-night-malam-terakhir-melawan-yang-tidak-boleh-dibangkitkan" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/DbYu4-XYNss" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/A_Perfect_Fit">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>    
+            <rdfs:label>A Perfect Fit</rdfs:label>
+            <rdfs:comment>A Perfect Fit is a 2021 Indonesian romantic comedy drama film directed by Hadrah Daeng Ratu and written by Garin Nugroho. This film presents a romantic love story wrapped in the beautiful atmosphere of Bali along with its cultural diversity.</rdfs:comment>
+            <dbo:director>Hadrah Daeng Ratu</dbo:director>
+            <dbp:starring>Nadya Arina, Refal Hady, Giorgino Abraham</dbp:starring>
+            <dbo:releaseDate>July 15, 2021</dbo:releaseDate>
+            <dbo:runtime>112 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Comedy Romantic Drama</dbo:genre>
+            <dbo:rating>9.0</dbo:rating>
+            <foaf:age>17+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/A_Perfect_Fit_(2021_film)"/>
+            <foaf:img rdf:resource="https://www.netflix.com/id/title/81327369" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/WM_aZHXPRyI" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Kate">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>    
+            <rdfs:label>Kate</rdfs:label>
+            <rdfs:comment>Kate is a 2021 American action thriller film directed by Cedric Nicolas-Troyan and written by Umair Aleem. The film follows Kate (Winstead), an assassin, whose mentor and handler (Harrelson) assigns her to kill a high-ranking yakuza boss.</rdfs:comment>
+            <dbo:director>Cedric Nicolas-Troyan</dbo:director>
+            <dbp:starring>Mary Elizabeth Winstead, Miku Martineau, Woody Harrelson</dbp:starring>
+            <dbo:releaseDate>September 10, 2021</dbo:releaseDate>
+            <dbo:runtime>106 mins</dbo:runtime>
+            <dc:language>English, Japanese</dc:language>
+            <dbo:genre>Action Thriller</dbo:genre>
+            <dbo:rating>9.1</dbo:rating>
+            <foaf:age>18+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/Kate_(film)"/>
+            <foaf:img rdf:resource="https://www.tribunnewswiki.com/2021/09/16/film-kate-2021" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/MysGjRS9jFU" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Security">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>    
+            <rdfs:label>Security</rdfs:label>
+            <rdfs:comment>Security is a 2017 American action thriller film directed by Alain DesRochers and written by Tony Mosher and John Sullivan. The film stars Antonio Banderas, Gabriella Wright, Ben Kingsley, and Chad Lindberg.</rdfs:comment>
+            <dbo:director>Alain DesRochers</dbo:director>
+            <dbp:starring>Antonio Banderas, Gabriella Wright, Ben Kingsley</dbp:starring>
+            <dbo:releaseDate>March 4, 2017</dbo:releaseDate>
+            <dbo:runtime>92 mins</dbo:runtime>
+            <dc:language>English</dc:language>
+            <dbo:genre>Action Thriller</dbo:genre>
+            <dbo:rating>9.2</dbo:rating>
+            <foaf:age>18+</foaf:age>
+            <foaf:image rdf:resource="https://en.wikipedia.org/wiki/Security_(film)"/>
+            <foaf:img rdf:resource="https://www.tribunnewswiki.com/2021/10/28/film-security-2021" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/g8iHdswmYBA" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Ghost_Lab">
+            <rdf:type rdf:resource="http://fakeMovie.com/popular_movie"/>    
+            <rdfs:label>Ghost Lab</rdfs:label>
+            <rdfs:comment>Ghost Lab is a 2021 Thai film directed by Paween Purijitpanya, written by Vasudhorn Piyaromna, Paween Purijitpanya and Tossaphon Riantong and starring Thanapob Leeratanakachorn, Paris Intarakomalyasut and Nuttanicha Dungwattanawanich.</rdfs:comment>
+            <dbo:director>Paween Purijitpanya</dbo:director>
+            <dbp:starring>Thanapob Leeratanakachorn, Paris Intarakomalyasut, Nuttanicha Dungwattanawanich</dbp:starring>
+            <dbo:releaseDate>May 26, 2021</dbo:releaseDate>
+            <dbo:runtime>117 mins</dbo:runtime>
+            <dc:language>Thai</dc:language>
+            <dbo:genre>Horor, Action, Science fiction, Drama</dbo:genre>
+            <dbo:rating>8.6</dbo:rating>
+            <foaf:age>18+</foaf:age>
+            <foaf:image rdf:resource="https://www.imdb.com/title/tt13446126/"/>
+            <foaf:img rdf:resource="https://www.cnnindonesia.com/hiburan/20210604164203-220-650490/review-film-ghost-lab" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/RN9G-g5PhJE" />
+        </rdf:Description>
+
+<!-- End Popular Movie -->
+
+<!-- Indonesia's  Movie -->
+        <rdf:Description rdf:about="http://fakeMovie.com/Paranoia">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>     
+            <rdfs:label>Paranoia</rdfs:label>
+            <rdfs:comment>Paranoia is a 2021 Indonesian thriller drama film produced by Miles Films directed by Riri Riza and produced by Mira Lesmana. The film stars Nirina Zubir, Nicholas Saputra, Caitlin North Lewis, and Lukman Sardi.</rdfs:comment>
+            <dbo:director>Riri Riza</dbo:director>
+            <dbp:starring>Nirina Zubir, Nicholas Saputra, Caitlin North Lewis</dbp:starring>
+            <dbo:releaseDate>July 8, 2021</dbo:releaseDate>
+            <dbo:runtime>102 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Thriller Drama</dbo:genre>
+            <dbo:rating>8.7</dbo:rating>
+            <foaf:age>17+</foaf:age>
+            <foaf:image rdf:resource="https://www.imdb.com/title/tt13429004/"/>
+            <foaf:img rdf:resource="https://www.suara.com/entertainment/2021/09/17/200210/sinopsis-paranoia-film-thriller-nicholas-saputra-yang-tayang-di-korsel" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/a11YXnhXDW4" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Selesai">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>         
+            <rdfs:label>Selesai</rdfs:label>
+            <rdfs:comment>Selesai is a 2021 Indonesian drama film directed by Tompi and story by Imam Darto. The film, which has finished filming since the end of 2020.</rdfs:comment>
+            <dbo:director>Tompi</dbo:director>
+            <dbp:starring>Ariel Tatum, Gading Marten, Anya Geraldine</dbp:starring>
+            <dbo:releaseDate>August 16, 2021</dbo:releaseDate>
+            <dbo:runtime>83 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Romantic Drama</dbo:genre>
+            <dbo:rating>8</dbo:rating>
+            <foaf:age>18+</foaf:age>
+            <foaf:image rdf:resource="https://id.wikipedia.org/wiki/Selesai_(film)"/>
+            <foaf:img rdf:resource="https://correcto.id/beranda/read/49852/sinopsis-lengkap-pemain-film-selesai-yang-digarap-oleh-tompi" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/YvYEPJT83Tk" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Dua_Garis_Biru">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>         
+            <rdfs:label>Dua Garis Biru</rdfs:label>
+            <rdfs:comment>Dua Garis Biru is a 2019 Indonesian teen drama film directed by Gina S. Noer and produced by Starvision Plus in collaboration with Wahana Kreator.</rdfs:comment>
+            <dbo:director>Gina S. Noer</dbo:director>
+            <dbp:starring>Zara Adhisty, Angga Yunanda, Cut Mini</dbp:starring>
+            <dbo:releaseDate>Juny 27, 2019</dbo:releaseDate>
+            <dbo:runtime>113 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Romantic Drama</dbo:genre>
+            <dbo:rating>9.0</dbo:rating>
+            <foaf:age>17+</foaf:age>
+            <foaf:image rdf:resource="https://id.wikipedia.org/wiki/Dua_Garis_Biru"/>
+            <foaf:img rdf:resource="https://www.antaranews.com/berita/952421/dua-garis-biru-wajib-ditonton-remaja-orang-tua" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/b0NS7FP1loU" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Milea:_Suara_dari_Dilan">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>         
+            <rdfs:label>Milea: Suara dari Dilan</rdfs:label>
+            <rdfs:comment>This film is adapted from the novel of the same name by Pidi and is a sequel to Dilan 1991 (2019). The story of this film is taken from Dilan's point of view by showing things that were not told in the two previous films. The film also premiered on Netflix on June 13, 2020.</rdfs:comment>
+            <dbo:director>Fajar Bustomi, Pidi Baiq</dbo:director>
+            <dbp:starring>Iqbal Ramadhan, Vanesha Prescilla, Ira Wibowo</dbp:starring>
+            <dbo:releaseDate>February 13, 2020</dbo:releaseDate>
+            <dbo:runtime>102 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Romantic Drama</dbo:genre>
+            <dbo:rating>9.7</dbo:rating>
+            <foaf:age>17+</foaf:age>
+            <foaf:image rdf:resource="https://id.wikipedia.org/wiki/Milea:_Suara_dari_Dilan_(film)"/>
+            <foaf:img rdf:resource="https://movieden.net/artikel-sebelum-nonton-baca-5-fakta-menarik-milea-suara-dari-dilan/" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/C2yFJaXmdQs" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Posesif">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>         
+            <rdfs:label>Posesif</rdfs:label>
+            <rdfs:comment>Posesif is a 2017 Indonesian drama film directed by Edwin and written by . The film focuses on a couple of high school students in a turbulent relationship. The film was well received by critics and audiences alike and garnered 10 nominations at the 37th Citra Awards, including Best Picture. It won three: Best Director (Edwin), Best Actress, and Best Supporting Actor.</rdfs:comment>
+            <dbo:director>Edwin</dbo:director>
+            <dbp:starring>Putri Marino, Adipati Dolken, Yayu Unru</dbp:starring>
+            <dbo:releaseDate>October 26, 2017</dbo:releaseDate>
+            <dbo:runtime>102 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Romantic Drama</dbo:genre>
+            <dbo:rating>8.5</dbo:rating>
+            <foaf:age>18+</foaf:age>
+            <foaf:image rdf:resource="https://id.wikipedia.org/wiki/Posesif"/>
+            <foaf:img rdf:resource="https://movieden.net/review-film-posesif-kisah-hubungan-destruktif-abusif/" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/5XyMy7Z5SO4" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Danur:_I_Can_See_Ghosts">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>         
+            <rdfs:label>Danur: I Can See Ghosts</rdfs:label>
+            <rdfs:comment>Danur: I Can See Ghosts is a 2017 Indonesian horror film directed by Awi Suryadi and written by Lele Laila, starring Prilly Latuconsina, Shareefa Daanish, Wesley Andrew in lead roles. The film story is adapted from a novel written by Risa Saraswati-based friendship between ghosts and humans. It is the highest-grossing Indonesian horror movie at the time, and has led to two sequels.</rdfs:comment>
+            <dbo:director>Awi Suryadi</dbo:director>
+            <dbp:starring>Prilly Latuconsina, Sandrinna Michelle, Shareefa Daanish</dbp:starring>
+            <dbo:releaseDate>March 30, 2017</dbo:releaseDate>
+            <dbo:runtime>78 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Horor</dbo:genre>
+            <dbo:rating>9.5</dbo:rating>
+            <foaf:age>17+</foaf:age>
+            <foaf:image rdf:resource="https://id.wikipedia.org/wiki/Danur:_I_Can_See_Ghosts"/>
+            <foaf:img rdf:resource="https://www.tribunnews.com/seleb/2020/12/26/sinopsis-film-danur-i-can-see-ghosts-2017-kisah-prilly-latuconsina-yang-berteman-dengan-3-hantu" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/YLU6Qfi0cDY" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Sebelum_Iblis_Menjemput">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>         
+            <rdfs:label>Sebelum Iblis Menjemput</rdfs:label>
+            <rdfs:comment>May the Devil Take You (Indonesian: Sebelum Iblis Menjemput) is a 2018 Indonesian horror film written and directed by Timo Tjahjanto.The story follows Alfie (Chelsea Islan) who, when trying to find answers to her father's (Ray Sahetapy) mysterious illness, visits his old house and finds out events from his past.</rdfs:comment>
+            <dbo:director>Timo Tjahjanto</dbo:director>
+            <dbp:starring>Chelsea Islan, Pevita Pearce, Samo Rafael</dbp:starring>
+            <dbo:releaseDate>August 9, 2018</dbo:releaseDate>
+            <dbo:runtime>110 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>Horor</dbo:genre>
+            <dbo:rating>8.7</dbo:rating>
+            <foaf:age>17+</foaf:age>
+            <foaf:image rdf:resource="https://id.wikipedia.org/wiki/Sebelum_Iblis_Menjemput"/>
+            <foaf:img rdf:resource="https://hot.detik.com/movie/d-4917620/sebelum-iblis-menjemput-ayat-2-teror-kutukan-yang-masih-mengintai" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/WyOdg8psCxI" />
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://fakeMovie.com/Cek_Toko_Sebelah">
+            <rdf:type rdf:resource="http://fakeMovie.com/indonesia_movie"/>         
+            <rdfs:label>Cek Toko Sebelah</rdfs:label>
+            <rdfs:comment>Cek Toko Sebelah, also known as Check Out the Shop Next Door, or Checking on the store next door, is an Indonesian comedy-drama film produced by Starvision Plus, released on December 28, 2016 and directed by Ernest Prakasa. The film was written by Ernest Prakasa and with story development from Meira Anastasia.</rdfs:comment>
+            <dbo:director>Ernest Prakasa</dbo:director>
+            <dbp:starring>Ernest Prakasa, Dion Wiyoko, Chew Kinwah</dbp:starring>
+            <dbo:releaseDate>December 28, 2016</dbo:releaseDate>
+            <dbo:runtime>98 mins</dbo:runtime>
+            <dc:language>Indonesia</dc:language>
+            <dbo:genre>comedy Drama</dbo:genre>
+            <dbo:rating>9.6</dbo:rating>
+            <foaf:age>15+</foaf:age>
+            <foaf:image rdf:resource="https://id.wikipedia.org/wiki/Cek_Toko_Sebelah"/>
+            <foaf:img rdf:resource="https://www.wowkeren.com/berita/tampil/00224694.html" />
+            <foaf:depiction rdf:resource="https://www.youtube.com/embed/r9NJveLN3zI" />
+        </rdf:Description>
+
+<!-- End Indonesia's  Movie -->
+
+</rdf:RDF>
