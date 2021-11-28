@@ -138,6 +138,9 @@
                   <li class="nav-item">
                     <a class="nav-link ms-5" aria-current="page" href="index.php">Halaman Utama</a>
                   </li>
+                    <li class="nav-item">
+                    <a class="nav-link ms-5" aria-current="page" href="search.php">Pencarian</a>
+                    </li>
                 </ul>
               </div>
             </div>
