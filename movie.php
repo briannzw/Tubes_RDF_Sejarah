@@ -1,4 +1,5 @@
 <?php
+  require 'vendor/autoload.php';
   require_once('sparqllib.php');
 
   $db = sparql_connect("http://localhost:3030/test/sparql");
@@ -104,17 +105,20 @@
             SELECT DISTINCT *
             WHERE
             {
-                ?movie rdfs:label   ?Judul;
+                ?movie foaf:image   ?wiki;
+                       rdfs:label   ?Judul;
                        dbo:runtime  ?Durasi;
                        dbp:starring ?Pemeran;
                        dbo:genre	?Genre;
-                       dbo:rating	?Rating
+                       dbo:rating	?Rating.
             }
             LIMIT 10";
             $result = sparql_query($sparql);
             //var_dump($result);
             $fields = sparql_field_array($result);
             $i = 0;
+
+            \EasyRdf\RdfNamespace::setDefault('og');
         ?>
 
         <!--Container Gambar-->
@@ -124,9 +128,10 @@
                 <thead class="thead-dark">
                     <tr>
                     <th scope="col">No</th>
+                    <th scope="col">Thumbnail</th>
                     <?php foreach($fields as $field) : 
                         $i++;
-                        if($i==1) continue;
+                        if($i<=2) continue;
                         echo "<th scope='col'>".$field."</th>";
                     
                     endforeach;?>
@@ -136,12 +141,19 @@
                 <?php 
                 $i = 1;
                 while($row = sparql_fetch_array($result)) : 
-                    $j = 0;?>
+                    $j = 0;
+                    
+                    $img_file = \EasyRdf\Graph::newAndLoad($row['wiki']);
+                ?>
                     <tr>
                     <th scope="row"><?= $i ?></th>
                     <?php foreach($fields as $field){ 
                         $j++;
                         if($j==1) continue;
+                        if($j==2){
+                            echo "<td><img src='".$img_file->image."' class='img-fluid mx-auto cover-img'></img></td>";
+                            continue;
+                        }
                         echo "<td>".$row[$field]."</td>";
                     }
                     ?>
