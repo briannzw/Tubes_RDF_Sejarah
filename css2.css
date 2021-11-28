@@ -78,6 +78,7 @@ body,html{
 
 #suggesstion-box li:hover{
     background: #353b48;
+    cursor: pointer;
 }
 
 .table-container{
