@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Cari Sejarah</title>
+        <link rel="icon" href="index_img/icon.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
@@ -11,7 +12,7 @@
         <!--Akhir link ke Bootstrap-->
         <link rel="stylesheet" href="css2.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery.redirect@1.1.4/jquery.redirect.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery.redirect@1.1.4/jquery.redirect.min.js"></script>
         <!--CSS-->
             <style>
                 .amiri{
@@ -30,7 +31,7 @@
                     font-size: 23px;
                 }
                 .bg-light{
-                    background: transparent !important;
+                    background-color: rgba(255,255,255,0.8)!important;
                     transition:0.5s ease;
                 }
                 .bg-light.scroll{
@@ -48,6 +49,13 @@
                     color: white;
                     text-decoration: none;
                     
+                }
+
+                .logo{
+                    position: relative;
+                    left: 150px;
+                    width: 40%;
+                    margin-bottom: 2%;
                 }
             </style>
         <!--Akhir CSS-->
@@ -79,7 +87,8 @@
         <!--Container Gambar-->
         <div class="container-fluid d-flex justify-content-center align-items-center bg-search m-0 p-0 h-100">
             <div class="justify-content-center">
-                <h1 style="text-align:center; color:#353b48; position:relative; my-5">Pencarian Saya</h1>
+                <!--<h1 style="text-align:center; color:black; position:relative; my-5">Pencarian Saya</h1>-->
+                <img class="logo" src='index_img/icon.png' />
                 <div class="searchbar">
                     <input class="search_input" type="text" name="" placeholder="Keyword: Medan, Surabaya, Battle...">
                     <a id="#search-button" class="search_icon"><i class="fas fa-search"></i></a>
@@ -96,10 +105,6 @@
         <!--Akhir Footer-->
 
         <script>
-        $(window).scroll(function(){
-            $('nav').toggleClass('scroll', $(this).scrollTop() > 200);
-        });
-
         $(function(){
             $(document).ready(function() {
                 $(".search_input").keyup(function(){

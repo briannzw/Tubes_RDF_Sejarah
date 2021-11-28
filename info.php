@@ -66,6 +66,7 @@
 <html>
     <head>
         <title><?= $detail['label'] ?></title>
+        <link rel="icon" href="index_img/icon.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> 
@@ -140,6 +141,9 @@
                     <li class="nav-item">
                     <a class="nav-link ms-5" aria-current="page" href="search.php">Pencarian</a>
                     </li>
+                  <li class="nav-item">
+                    <a class="nav-link ms-5" aria-current="page" href="movie.php">Rekomendasi Film</a>
+                  </li>
                 </ul>
               </div>
             </div>

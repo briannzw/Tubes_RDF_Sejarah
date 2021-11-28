@@ -123,7 +123,7 @@
 
         <!--Container Gambar-->
         <div class="container-fluid d-flex justify-content-center align-items-center bg-search m-0 p-0 h-100">
-            <div class="justify-content-center">
+            <div class="justify-content-center h-100">
             <table class="table table-light table-bordered">
                 <thead class="thead-dark">
                     <tr>
