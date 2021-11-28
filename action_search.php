@@ -19,7 +19,15 @@
         $uri = "";
         foreach ($xml_data->children() as $data)
         {
-            if($data->Classes->Class->Label == "Event"){
+            $checkClass = 0;
+            foreach($data->Classes->children() as $class){
+                $label = $class->Label;
+                if(($label == "Event") || ($label == "Societal Event") || ($label == "Military Conflict")){
+                    $checkClass++;
+                }
+                if($checkClass == 0) break;
+            }
+            if($checkClass == 3){
                 $i++;
                 if($data->Label != ""){
                     $uri = str_replace("http://dbpedia.org/resource/", "", $data->URI);
