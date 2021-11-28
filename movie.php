@@ -1,6 +1,20 @@
+<?php
+  require_once('sparqllib.php');
+
+  $db = sparql_connect("http://localhost:3030/test/sparql");
+  if( !$db ) { print sparql_errno() . ": " . sparql_error(). "\n"; exit; }
+
+  sparql_ns("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+  sparql_ns("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
+  sparql_ns("dbo", "http://dbpedia.org/ontology/");
+  sparql_ns("dbr", "http://dbpedia.org/resource/");
+  sparql_ns("foaf", "http://xmlns.com/foaf/0.1/");
+  sparql_ns("dc", "http://purl.org/dc/elements/1.1/");
+?>
+
 <html>
     <head>
-        <title>Cari Sejarah</title>
+        <title>Rekomendasi Film</title>
         <link rel="icon" href="index_img/icon.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
@@ -67,25 +81,77 @@
                     <a class="nav-link ms-5" aria-current="page" href="index.php">Halaman Utama</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ms-5" aria-current="page" href="#">Pencarian</a>
+                    <a class="nav-link ms-5" aria-current="page" href="search.php">Pencarian</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ms-5" aria-current="page" href="movie.php">Rekomendasi Film</a>
+                    <a class="nav-link ms-5" aria-current="page" href="#">Rekomendasi Film</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         <!--Akhir Navbar-->
+
+        <?php
+            $sparql = "
+            PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX dbo:  <http://dbpedia.org/ontology/>
+            PREFIX cat:  <http://dbpedia.org/property/>
+            PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+            PREFIX dc: 	 <http://purl.org/dc/elements/1.1/>
+            PREFIX dbp: <http://dbpedia.org/property/>
+            SELECT DISTINCT *
+            WHERE
+            {
+                ?movie rdfs:label   ?Judul;
+                       dbo:runtime  ?Durasi;
+                       dbp:starring ?Pemeran;
+                       dbo:genre	?Genre;
+                       dbo:rating	?Rating
+            }
+            LIMIT 10";
+            $result = sparql_query($sparql);
+            //var_dump($result);
+            $fields = sparql_field_array($result);
+            $i = 0;
+        ?>
+
         <!--Container Gambar-->
         <div class="container-fluid d-flex justify-content-center align-items-center bg-search m-0 p-0 h-100">
             <div class="justify-content-center">
-                <div class="searchbar">
-                    <input class="search_input" type="text" name="" placeholder="Search...">
-                    <a id="#search-button" class="search_icon"><i class="fas fa-search"></i></a>
-                </div>
-                <div id="suggesstion-box">
-                </div>
+            <table class="table table-light table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                    <th scope="col">No</th>
+                    <?php foreach($fields as $field) : 
+                        $i++;
+                        if($i==1) continue;
+                        echo "<th scope='col'>".$field."</th>";
+                    
+                    endforeach;?>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php 
+                $i = 1;
+                while($row = sparql_fetch_array($result)) : 
+                    $j = 0;?>
+                    <tr>
+                    <th scope="row"><?= $i ?></th>
+                    <?php foreach($fields as $field){ 
+                        $j++;
+                        if($j==1) continue;
+                        echo "<td>".$row[$field]."</td>";
+                    }
+                    ?>
+                    </tr>
+                <?php
+                $i++;
+                endwhile;
+                ?>
+                </tbody>
+            </table>
             </div>
         </div>
         <!--Akhir Container Gambar-->
@@ -99,35 +165,6 @@
         $(window).scroll(function(){
             $('nav').toggleClass('scroll', $(this).scrollTop() > 200);
         });
-
-        $(function(){
-            $(document).ready(function() {
-                $(".search_input").keyup(function(){
-                        text = $('.search_input').val();
-                        if((text != "") && (text.length > 3)){
-                            $.ajax({
-                                url: 'action_search.php',
-                                method: 'POST',
-                                data: {
-                                    query: text
-                                },
-                                success: function(data){
-                                    $("#suggesstion-box").show();
-                                    $("#suggesstion-box").html(data);
-                                    $("#search-box").css("background","#FFF");
-                                }
-                            });
-                        }
-                });
-                $(".search_input").focus(function() {
-                    if($("#suggesstion-box").html() != "")
-                    $("#suggesstion-box").show();
-                });
-                $(".search_input").focusout(function() {
-                });
-            });
-        });
-            
         </script>
     </body>
 </html>

@@ -43,6 +43,9 @@
                 <li class="nav-item">
                   <a class="nav-link ms-5" aria-current="page" href="search.php">Pencarian</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-5" aria-current="page" href="movie.php">Rekomendasi Film</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -105,13 +108,13 @@
       \EasyRdf\RdfNamespace::set("dbr", "http://dbpedia.org/resource/");
       \EasyRdf\RdfNamespace::set("foaf", "http://xmlns.com/foaf/0.1/");
       
-      $uri_rdf = "https://raw.githubusercontent.com/briannzw/Tubes_RDF_Sejarah/master/Sejarah_Indonesia.rdf";//https://raw.githack.com/briannzw/Tubes_RDF_Sejarah/master/Test%20RDF/foaf.rdf
+      $uri_rdf = "https://raw.githubusercontent.com/briannzw/Tubes_RDF_Sejarah/master/Sejarah_Indonesia.rdf";
       $raw_file = file_get_contents($uri_rdf);
       $parser = new \EasyRdf\Parser\RdfXml();
       $graph = new \EasyRdf\Graph();
       $parser->parse($graph, $raw_file, 'rdfxml', null);
 
-      $doc = $graph->resource("https://github.com/briannzw/Tubes_RDF_Sejarah/");//http://github.com/briannzw/Tubes_RDF_Sejarah/blob/master/Sejarah_Indonesia.rdf
+      $doc = $graph->resource("https://github.com/briannzw/Tubes_RDF_Sejarah/");
       //var_dump($graph->dump());
       //$doc = $graph->primaryTopic();
       //var_dump($doc);
@@ -159,47 +162,6 @@
           </script>
         <?php endforeach; ?>
     </div>
-    
-    <!--awal Tentang Kami-->
-    <!--
-    <div class="container-fluid px-5 pb-5" id="containerbg">
-        <h1 class="mb-0 mt-0 py-5">Tentang Kami</h1>
-            <div class="row cardfont">
-                <div class="col-4 p-0">
-                <div class="card p-0 h-100" >
-                  <img src="index_img/profile.png" class="card-img-top px-5 mt-3" alt="...">
-                  <div class="card-body pt-0 pb-5 px-4">
-                    <h5 class="card-title mb-3">Siapa Kami</h5>
-                    <p class="card-text" style="font-size: 12px">Sejak 2005, Rumahin.com tetap kompetitif dengan memanfaatkan jalur data yang kuat yang dibangun di atas hubungan MLS terbaik di seluruh 50 provinsi. Itu berarti Anda mendapatkan daftar terbaru 24 jam sehari, 365 hari setahun.</p>
-                  </div>
-                </div>
-                </div>
-                
-                <div class="col-4 p-0">
-                <div class="card p-0 h-100" >
-                  <img src="index_img/investment.png" class="card-img-top px-5 mt-3" alt="...">
-                  <div class="card-body pt-0 pb-5 px-4">
-                    <h5 class="card-title mb-3">Kelebihan Kami</h5>
-                    <p class="card-text" style="font-size: 12px">Database terbaru kami memungkinkan Anda mencari rumah impian atau menemukan nilai rumah Anda saat ini. Kemudian kami akan menghubungkan Anda dalam beberapa menit dengan salah satu agen lokal terbaik kami.</p>
-                  </div>
-                </div>
-                </div>
-                
-                <div class="col-4 p-0">
-                <div class="card p-0 h-100">
-                  <img src="index_img/portfolio.png" class="card-img-top px-5 mt-3" alt="...">
-                  <div class="card-body pt-0 pb-5 px-4">
-                    <h5 class="card-title mb-3">Kenapa Bekerja Dengan Kami</h5>
-                    <p class="card-text" style="font-size: 12px">Kami dapat mengubah masa depan real estat dengan teknologi canggih, alat komunikasi klien terbaru, informasi pasar, teknologi AI adaptif, dan tim pemasar khusus, koordinator transaksi, dan ilmuwan data.</p>
-                  </div>
-                </div>
-                </div>
-            </div>
-    </div>
-        -->
-    <!--akhir Tentang kami-->
-    
-    
     
     <!--awal footer-->
         <footer class="page-footer bg-dark">

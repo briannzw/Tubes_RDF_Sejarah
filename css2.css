@@ -9,33 +9,26 @@ body,html{
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
-    background-color: #353b48;
+    background-color: white;
     border-radius: 30px;
     padding: 10px;
 }
     
 .search_input{
-    color: white;
+    color: black;
     border: 0;
     outline: 0;
-    padding: 0;
+    padding: 0 10px;
     background: none;
-    width: 0;
-    caret-color:transparent;
+    width: 450px;
+    caret-color:red;
     line-height: 40px;
     transition: width 0.4s linear;
 }
     
-.searchbar:hover > .search_input{
-    padding: 0 10px;
-    width: 450px;
-    caret-color:red;
-    transition: width 0.4s linear;
-}
-    
 .searchbar:hover > .search_icon{
-    background: white;
-    color: #e74c3c;
+    background: #353b48;
+    color: white;
 }
 
 .search_input:focus{
@@ -53,7 +46,7 @@ body,html{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color:white;
+    color:black;
     text-decoration:none;
 }
 
@@ -72,6 +65,7 @@ body,html{
     padding: 10px 8px;
     max-height: 280px;
     overflow-y: auto;
+    color:white;
 }
 
 #suggesstion-box li{
@@ -83,5 +77,13 @@ body,html{
 }
 
 #suggesstion-box li:hover{
-    background: #efefef;
+    background: #353b48;
+}
+
+.table td{
+    font-size: 12px;
+}
+
+.table th{
+    font-size: 14px;
 }
