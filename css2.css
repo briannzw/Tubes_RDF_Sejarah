@@ -87,3 +87,9 @@ body,html{
 .table th{
     font-size: 14px;
 }
+
+.cover-img{
+    object-fit: cover;
+    width: 200px;
+    height:200px;
+}

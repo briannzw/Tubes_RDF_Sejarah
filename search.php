@@ -1,7 +1,6 @@
 <html>
     <head>
         <title>Cari Sejarah</title>
-        <link rel="icon" href="index_img/icon.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
@@ -67,8 +66,8 @@
                     <a class="nav-link ms-5" aria-current="page" href="index.php">Halaman Utama</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ms-5" aria-current="page" href="#">Pencarian</a>
-                  </li>
+                  <a class="nav-link ms-5" aria-current="page" href="#">Pencarian</a>
+                    </li>
                   <li class="nav-item">
                     <a class="nav-link ms-5" aria-current="page" href="movie.php">Rekomendasi Film</a>
                   </li>
@@ -80,8 +79,9 @@
         <!--Container Gambar-->
         <div class="container-fluid d-flex justify-content-center align-items-center bg-search m-0 p-0 h-100">
             <div class="justify-content-center">
+                <h1 style="text-align:center; color:#353b48; position:relative; my-5">Pencarian Saya</h1>
                 <div class="searchbar">
-                    <input class="search_input" type="text" name="" placeholder="Search...">
+                    <input class="search_input" type="text" name="" placeholder="Keyword: Medan, Surabaya, Battle...">
                     <a id="#search-button" class="search_icon"><i class="fas fa-search"></i></a>
                 </div>
                 <div id="suggesstion-box">
